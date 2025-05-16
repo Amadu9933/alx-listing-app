@@ -1,9 +1,10 @@
 // Placeholder interface for CardProps
 export interface CardProps {
-  title: string; // Title of the card
-  description?: string; // Optional description of the card
-  imageUrl?: string; // Optional image URL for the card
-  onClick?: () => void; // Optional click handler
+  title: string;
+  description?: string;
+  imageUrl?: string;
+  onClick?: () => void;
+  children?: React.ReactNode; // Add this line
 }
 
 // Placeholder interface for ButtonProps
